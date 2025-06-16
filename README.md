@@ -26,6 +26,7 @@ Sends a copy of the transaction to the driver.
 Uses an event (nxt) for handshaking with the driver.
 Generates 10 transactions in a loop.
 Signals completion using the done event.
+
 5. Driver Class - driver.sv
 The driver class receives transactions from the generator via the mailbox and drives them to the DUT through the interface. Key features:
 
